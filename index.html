@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -15,11 +15,20 @@
         <div class="bg-light rounded p-3">
 
           <h1>Some Favorites</h1>
-          <ul>
-            <li><a href="#">Celery Root</a>
-            <li><a href="#">Spaghetti Squash</a>
-            <li><a href="#">Killer Mushrooms</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link active" href="#">Celery Root</a>
+            <li class="nav-item"><a class="nav-link active" href="#">Spaghetti Squash</a>
+            <li class="nav-item"><a class="nav-link active" href="#">Killer Mushrooms</a>
           </ul>
+          <form>
+            <div class="form-group">
+              <input class="form-control" type="text">
+            </div>
+            <div class="form-group">
+            <button class="btn btn-primary" type="submit">Search recipes</button>
+            </div>
+            </form>
+          </form>
         </div>
       </div>
       <div class="col-md-9">
@@ -49,6 +58,17 @@
             </tr>
           </tbody>
         </table>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Beets-Bundle.jpg/800px-Beets-Bundle.jpg" alt="beets">
+          </div>
+          <div class="col-md-3">
+            <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/CarrotDiversityLg.jpg" alt="Carrots">
+          </div>
+          <div class="col-md-3">
+            <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Green_Asparagus_New_York_11_May_2006.jpg/220px-Green_Asparagus_New_York_11_May_2006.jpg" alt="Hz">
+          </div>
+        </div>
 
         <h2>Really informative info</h2>
 
@@ -63,3 +83,4 @@
 
   </body>
 </html>
+
